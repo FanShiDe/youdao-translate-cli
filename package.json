@@ -1,0 +1,30 @@
+{
+  "name": "youdao-translate-cli",
+  "version": "1.2.2",
+  "author": "cuitfanshide",
+  "keywords": [
+    "translate",
+    "youdao",
+    "language",
+    "cli"
+  ],
+  "description": "a cli translate tool of you dao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FanShiDe"
+  },
+  "bin": {
+    "cts": "./Fts.js"
+  },
+  "main": "Fts.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.18.0",
+    "commander": "^2.16.0",
+    "ora": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
