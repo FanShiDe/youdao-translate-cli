@@ -1,15 +1,11 @@
 # youdao-translate-cli
 
-> 无比强大的 CLI 翻译
+> 无比强大的 CLI 翻译
 
 ## 目录
 
 * [安装](#安装)
-* [参数](#参数)
 * [使用](#使用)
-* [贡献者](#贡献者)
-   - [首席维护](#首席维护)
-   - [核心开发](#核心开发)
 
 ### 安装
 
@@ -25,7 +21,9 @@
 npm install -g youdao-translate-cli
 ```
 
-### 参数
-
-
 ### 使用
+
+```zsh
+cts -t zh-en 可爱的
+cts -t en-zh 'only you'
+```
